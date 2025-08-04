@@ -1,0 +1,343 @@
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+*{
+    margin: 0;
+    padding: o;
+}
+
+body{
+
+    background-color: rgb(0,0,33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(153, 153 ,226);
+    font-size: 1.5rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+
+
+
+.hero-section {
+    padding: 60px 20px;
+    background-color: #0d0c3b; 
+  }
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .hero-text {
+    flex: 1;
+    min-width: 280px;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: #0d0c3b;
+  }
+  
+  .hero-image img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .highlight {
+    color: #FF6347; 
+  }
+  
+
+.purple{
+    color: rgb(170,107,228);
+}
+.text-gray{
+    color: gray;
+}
+
+#element{
+    color: rgb(170,107,228);
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 280px;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.about-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+footer{
+    background-color: #0e0e1a;
+    
+
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer > div{
+    width: 223px;
+}
+.footer ul{
+    list-style: none;
+}
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: lightgray; 
+    font-size: 1.08rem;
+    
+}
+
+.contact-section {
+    background-color: #0f0f23;
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .contact-section button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-section button:hover {
+    background-color: #5b0aa0;
+  }
+  
+
+  .projects-section {
+    padding: 50px 0;
+    
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    width: 400px;
+    background-color:#001536;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-info {
+    padding-top: 10px;
+}
+
+.project-info h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.project-info p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.project-info .btn {
+    text-decoration: none;
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-info .btn:hover {
+    background-color: #3700b3;
+}
